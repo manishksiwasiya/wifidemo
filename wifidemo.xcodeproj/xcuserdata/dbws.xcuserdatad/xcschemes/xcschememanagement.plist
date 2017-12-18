@@ -6,8 +6,28 @@
 	<dict>
 		<key>wifidemo.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>729E14091FD522B700A85423</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>729E141D1FD522B700A85423</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>729E14281FD522B700A85423</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

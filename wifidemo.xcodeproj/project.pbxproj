@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		724433821FD554FB001C3856 /* ConfigProfileCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724433811FD554FB001C3856 /* ConfigProfileCreator.swift */; };
 		729E140E1FD522B700A85423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729E140D1FD522B700A85423 /* AppDelegate.swift */; };
 		729E14101FD522B700A85423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729E140F1FD522B700A85423 /* ViewController.swift */; };
 		729E14131FD522B700A85423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729E14111FD522B700A85423 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		729E14181FD522B700A85423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729E14161FD522B700A85423 /* LaunchScreen.storyboard */; };
 		729E14231FD522B700A85423 /* wifidemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729E14221FD522B700A85423 /* wifidemoTests.swift */; };
 		729E142E1FD522B700A85423 /* wifidemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729E142D1FD522B700A85423 /* wifidemoUITests.swift */; };
+		7FEAD472C2BECEFEDB6981BB /* Pods_wifidemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA356CDE4F91E398BE22486 /* Pods_wifidemo.framework */; };
+		A4CC1563379669A213A19173 /* Pods_wifidemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71DAFCDF02DD7F958DAA3A3 /* Pods_wifidemoTests.framework */; };
+		D38F386E6B245C18C6C6EDA2 /* Pods_wifidemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58B0D236C388000582FB077 /* Pods_wifidemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +37,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		726EDDD31FDA9204001C1524 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0651EBC278743F5ABEF5B054 /* Pods-wifidemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wifidemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-wifidemo/Pods-wifidemo.release.xcconfig"; sourceTree = "<group>"; };
+		64927E703DA552B21A426222 /* Pods-wifidemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wifidemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wifidemoUITests/Pods-wifidemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6DA356CDE4F91E398BE22486 /* Pods_wifidemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wifidemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1F78858904656A05017F5C /* Pods-wifidemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wifidemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wifidemo/Pods-wifidemo.debug.xcconfig"; sourceTree = "<group>"; };
+		724433401FD52E0D001C3856 /* wifidemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wifidemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		724433811FD554FB001C3856 /* ConfigProfileCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigProfileCreator.swift; sourceTree = "<group>"; };
+		726EDDC21FDA9204001C1524 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		726EDDC41FDA9204001C1524 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		726EDDC71FDA9204001C1524 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		726EDDCA1FDA9204001C1524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		726EDDCC1FDA9204001C1524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		729E140A1FD522B700A85423 /* wifidemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wifidemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729E140D1FD522B700A85423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		729E140F1FD522B700A85423 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +75,11 @@
 		729E14291FD522B700A85423 /* wifidemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wifidemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		729E142D1FD522B700A85423 /* wifidemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wifidemoUITests.swift; sourceTree = "<group>"; };
 		729E142F1FD522B700A85423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A58B0D236C388000582FB077 /* Pods_wifidemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wifidemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD341D9A034A2A679B832A56 /* Pods-wifidemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wifidemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wifidemoTests/Pods-wifidemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCE24C3D9F533758167F4D8A /* Pods-wifidemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wifidemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wifidemoTests/Pods-wifidemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C73EBEF3D91F4963CDBBEAF3 /* Pods-wifidemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wifidemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wifidemoUITests/Pods-wifidemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D71DAFCDF02DD7F958DAA3A3 /* Pods_wifidemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wifidemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FEAD472C2BECEFEDB6981BB /* Pods_wifidemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4CC1563379669A213A19173 /* Pods_wifidemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +103,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38F386E6B245C18C6C6EDA2 /* Pods_wifidemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C643C694F2ADC657F620D55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F1F78858904656A05017F5C /* Pods-wifidemo.debug.xcconfig */,
+				0651EBC278743F5ABEF5B054 /* Pods-wifidemo.release.xcconfig */,
+				AD341D9A034A2A679B832A56 /* Pods-wifidemoTests.debug.xcconfig */,
+				BCE24C3D9F533758167F4D8A /* Pods-wifidemoTests.release.xcconfig */,
+				C73EBEF3D91F4963CDBBEAF3 /* Pods-wifidemoUITests.debug.xcconfig */,
+				64927E703DA552B21A426222 /* Pods-wifidemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		726EDDC61FDA9204001C1524 /* DemoCustomNotif */ = {
+			isa = PBXGroup;
+			children = (
+				726EDDC71FDA9204001C1524 /* NotificationViewController.swift */,
+				726EDDC91FDA9204001C1524 /* MainInterface.storyboard */,
+				726EDDCC1FDA9204001C1524 /* Info.plist */,
+			);
+			path = DemoCustomNotif;
+			sourceTree = "<group>";
+		};
 		729E14011FD522B700A85423 = {
 			isa = PBXGroup;
 			children = (
 				729E140C1FD522B700A85423 /* wifidemo */,
 				729E14211FD522B700A85423 /* wifidemoTests */,
 				729E142C1FD522B700A85423 /* wifidemoUITests */,
+				726EDDC61FDA9204001C1524 /* DemoCustomNotif */,
 				729E140B1FD522B700A85423 /* Products */,
+				1C643C694F2ADC657F620D55 /* Pods */,
+				AED323C337A47715E7DFFE01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +165,8 @@
 				729E14141FD522B700A85423 /* Assets.xcassets */,
 				729E14161FD522B700A85423 /* LaunchScreen.storyboard */,
 				729E14191FD522B700A85423 /* Info.plist */,
+				724433401FD52E0D001C3856 /* wifidemo-Bridging-Header.h */,
+				724433811FD554FB001C3856 /* ConfigProfileCreator.swift */,
 			);
 			path = wifidemo;
 			sourceTree = "<group>";
@@ -125,6 +189,18 @@
 			path = wifidemoUITests;
 			sourceTree = "<group>";
 		};
+		AED323C337A47715E7DFFE01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DA356CDE4F91E398BE22486 /* Pods_wifidemo.framework */,
+				D71DAFCDF02DD7F958DAA3A3 /* Pods_wifidemoTests.framework */,
+				A58B0D236C388000582FB077 /* Pods_wifidemoUITests.framework */,
+				726EDDC21FDA9204001C1524 /* UserNotifications.framework */,
+				726EDDC41FDA9204001C1524 /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +208,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 729E14321FD522B700A85423 /* Build configuration list for PBXNativeTarget "wifidemo" */;
 			buildPhases = (
+				6CE10E9043F060F06EE81199 /* [CP] Check Pods Manifest.lock */,
 				729E14061FD522B700A85423 /* Sources */,
 				729E14071FD522B700A85423 /* Frameworks */,
 				729E14081FD522B700A85423 /* Resources */,
+				10C6713FAEE25239D145BDEA /* [CP] Embed Pods Frameworks */,
+				F9673F85B40DAB0FB5AD0B72 /* [CP] Copy Pods Resources */,
+				726EDDD31FDA9204001C1524 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -149,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 729E14351FD522B700A85423 /* Build configuration list for PBXNativeTarget "wifidemoTests" */;
 			buildPhases = (
+				E9A309AEBDDF276A9F600729 /* [CP] Check Pods Manifest.lock */,
 				729E141A1FD522B700A85423 /* Sources */,
 				729E141B1FD522B700A85423 /* Frameworks */,
 				729E141C1FD522B700A85423 /* Resources */,
+				B4E46EF3980B5F29105F03BB /* [CP] Embed Pods Frameworks */,
+				3254C96A584E510AAC9D05A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 729E14381FD522B700A85423 /* Build configuration list for PBXNativeTarget "wifidemoUITests" */;
 			buildPhases = (
+				801C4EECB056BFBD1F1A7508 /* [CP] Check Pods Manifest.lock */,
 				729E14251FD522B700A85423 /* Sources */,
 				729E14261FD522B700A85423 /* Frameworks */,
 				729E14271FD522B700A85423 /* Resources */,
+				EEB07987CF6F049A3B3E5DE6 /* [CP] Embed Pods Frameworks */,
+				66FAE5DB3CA3BE5C6573DA87 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +340,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10C6713FAEE25239D145BDEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wifidemo/Pods-wifidemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3254C96A584E510AAC9D05A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wifidemoTests/Pods-wifidemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66FAE5DB3CA3BE5C6573DA87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wifidemoUITests/Pods-wifidemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CE10E9043F060F06EE81199 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		801C4EECB056BFBD1F1A7508 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E46EF3980B5F29105F03BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wifidemoTests/Pods-wifidemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A309AEBDDF276A9F600729 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEB07987CF6F049A3B3E5DE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wifidemoUITests/Pods-wifidemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9673F85B40DAB0FB5AD0B72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wifidemo/Pods-wifidemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		729E14061FD522B700A85423 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				729E14101FD522B700A85423 /* ViewController.swift in Sources */,
+				724433821FD554FB001C3856 /* ConfigProfileCreator.swift in Sources */,
 				729E140E1FD522B700A85423 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +521,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		726EDDC91FDA9204001C1524 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				726EDDCA1FDA9204001C1524 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		729E14111FD522B700A85423 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,14 +657,25 @@
 		};
 		729E14331FD522B700A85423 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1F78858904656A05017F5C /* Pods-wifidemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WGK9EVQ5N9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/CocoaAsyncSocket\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/CocoaHTTPServer\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/CocoaLumberjack\"",
+					"$(SRCROOT)",
+				);
 				INFOPLIST_FILE = wifidemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sha.wifidemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/dbws/Desktop/Manish/Sample/wifidemo/wifidemo/wifidemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,14 +683,25 @@
 		};
 		729E14341FD522B700A85423 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0651EBC278743F5ABEF5B054 /* Pods-wifidemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WGK9EVQ5N9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/CocoaAsyncSocket\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/CocoaHTTPServer\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/CocoaLumberjack\"",
+					"$(SRCROOT)",
+				);
 				INFOPLIST_FILE = wifidemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sha.wifidemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/dbws/Desktop/Manish/Sample/wifidemo/wifidemo/wifidemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +709,7 @@
 		};
 		729E14361FD522B700A85423 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD341D9A034A2A679B832A56 /* Pods-wifidemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +727,7 @@
 		};
 		729E14371FD522B700A85423 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE24C3D9F533758167F4D8A /* Pods-wifidemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +745,7 @@
 		};
 		729E14391FD522B700A85423 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73EBEF3D91F4963CDBBEAF3 /* Pods-wifidemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +762,7 @@
 		};
 		729E143A1FD522B700A85423 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64927E703DA552B21A426222 /* Pods-wifidemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

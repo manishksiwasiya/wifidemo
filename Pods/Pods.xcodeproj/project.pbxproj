@@ -1,0 +1,1534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B98F21400F82F308802B1CDA7B8EF6 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F16F8DBBAC11B99636FF715F96541143 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03FBBEE8CBC4272AAAA76B053AEB3961 /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE84E92FFCDD2E684837DEDB46E0D93 /* HTTPFileResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		05C12D309CC138659263A4F597DC252E /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = E743BD124368A44EB6651865197142D3 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BB69BBE2692108DE3B2D0C86707B6CA /* CocoaHTTPServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 500B980EF5B8BF47DA7B3F45EE8D15CD /* CocoaHTTPServer-dummy.m */; };
+		0D2E47FB465BAA1A5D59BA35A4642822 /* HTTPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = E0DC58462D1662F838BD21F907CB7D18 /* HTTPLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		125C60ECA9FB55C5B2AF4420CBD72F6F /* HTTPDynamicFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 36B0A78D01E9F89A2F203B7957F6A79A /* HTTPDynamicFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15D0885098D4528041F2DB5D6C8DF35D /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A78266E479F2E50EB3AF0C2D996F10 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16E082E9D1E865CF11E503CA14FA94B2 /* CocoaHTTPServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77BF13CD210FCEE5283FC2D28FAE02C0 /* CocoaHTTPServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17E214513270CBA69E4BD4994F73AE16 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B0979496B939439C2A88CB8878A378 /* DDASLLogCapture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		183DE0D906B136D525442686ECBDA60C /* PUTResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 123DCD11064FD0D91F53197A7C1AE339 /* PUTResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CAD5BCC2E361D89B2FCCD030FD85E49 /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D1F8DF34DEF8B86700F478962D1EEF /* HTTPDynamicFileResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1D5F7E19510838D8C49FAC24C154D740 /* DAVResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 44106ACB80DAC8B23F947489B84BA253 /* DAVResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EE2BBF0A031F21D7FE3B0368756F54C /* Pods-wifidemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 621BCEE28A3528BE31BBD2A330CD3751 /* Pods-wifidemo-dummy.m */; };
+		1EE5ECE19A4B7B7604D6A3FB9A1FEFD5 /* HTTPDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5665C36A17953892F4428E5C579C4D /* HTTPDataResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1F82DB1B4952D2EAED9B20B9A63DBD0E /* CocoaLumberjack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49474A96B041A60199EC9C7C568CE70C /* CocoaLumberjack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FB4D06B8C0B4354384C6B0EC4D2C5B5 /* MultipartMessageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 079D8F9AC1E4395A790967B9A090BBD0 /* MultipartMessageHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FFE94443D6756300971A2D475A69C52 /* MultipartFormDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B6922B247DD52A3AB60C00F66D9BBE /* MultipartFormDataParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2080E7AD99C273B6FD806B3590BA3BCA /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 178426EE71239955C59D472723575E58 /* HTTPAsyncFileResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		20FE6DA0E26AEA2E19EB0F1F28DBA63A /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E14F3BDAAF9C547514E7E6601AAF92 /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2273A8A79971FD632C759AAA02B005FE /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 67168BF8D3B61FFA98A03C9BB224F561 /* DDLog.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2BEA7A932C81C942F35E444F816A3B83 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = D72BAFED5B620E0ADF00B341B1A005E3 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DAA98C8614A6DED26CE8712531AE1FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D594952FB3E891191235789F6DC22E3D /* Foundation.framework */; };
+		3B15DE1AE5DF8FA180B041019B8CC9D4 /* Pods-wifidemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C0491EDCFB4EA8A6ECCBAFC8B36F4 /* Pods-wifidemoUITests-dummy.m */; };
+		41C99D27D483448BDA70894CA932924D /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AFD89D4A38D05BFEB8F4B10A7F95BD /* HTTPAuthenticationRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		45367B636A63E277B24A2948A46696D0 /* Pods-wifidemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F8D09FE52EDDBD5D58EACF65582C75 /* Pods-wifidemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48EDEB6E693DE9C7C5108163D7EBFDC1 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A2ACF03E80F6C1E6EEB49AC22028D1 /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AEE273522FF7A4D1456DA331A86B7EF /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D67F847C80CABBFD4E6AA0FE174BE49 /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4AF5C6D278D4076E9E94B1E7CE78C71C /* DELETEResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 017E1CCF1BAF1B1C5774377E9D2F2A47 /* DELETEResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E82A3C86921B93648D67C779AD54636 /* MultipartMessageHeaderField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BDC181F67B94B0D9602F2199258DAAF /* MultipartMessageHeaderField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E97518C672E4926A700FA8B98AAC5F0 /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEE139E679692E299860C0FD618019E /* CocoaLumberjack-dummy.m */; };
+		559E5FD7FFB5D4944D8C1457F71DC8D4 /* HTTPRedirectResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB68850BE3CE2FD9A3158B6899BAE18 /* HTTPRedirectResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55CFD8EDD1D19170A8A323CA5A739F70 /* HTTPAsyncFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D3201D827856BD3286B02043E619EB /* HTTPAsyncFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56D279DBB8520AF7CABA69A13E18F1B4 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C2451D5E5BB23F17CC21D70F5544021D /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		58F9C74778744AF8133746ED5E6E30CF /* DDData.h in Headers */ = {isa = PBXBuildFile; fileRef = AD43BEC7A2C548C0CE03628533B99D73 /* DDData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D13B7A43FF9C9250AFFED6481E75675 /* DELETEResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA4E72E0A07E0AB343A8ABD93580359 /* DELETEResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5D64EB3F0807ACFC73BD58745B8C4EDB /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB6FF48D835CE526B74EB05613D3A5 /* HTTPRedirectResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5F2F2E07D31FED69928AC5D6FA832BA8 /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C78F1538A17D32906690B37E30DA2D6 /* HTTPMessage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		61DB921D87E3D9B48CF107897B26C211 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = FC157D511FD759E5B9621F300546B753 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		691EB2540E2DA200DAF4B1CB5100C255 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D428719CE92CF786B0B152EE4ABDD8 /* CocoaLumberjack.framework */; };
+		6BF59059F591BA8D530FF31F554130A4 /* DAVResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F901F5ACAA8FF239E876F394C4C3FBD /* DAVResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6CA8750B9E7EB5E54AAF7A92BE65CCCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D594952FB3E891191235789F6DC22E3D /* Foundation.framework */; };
+		6D0D0D5F34DEA39D45414972C5880DF0 /* MultipartMessageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC589459A3C2DE0ED5CD86CC30F8E12 /* MultipartMessageHeader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		72D8501CC52A66D0DD5E94CE5F75D3DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D594952FB3E891191235789F6DC22E3D /* Foundation.framework */; };
+		75373108584704F0B2FE853077A74DDA /* Pods-wifidemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F23D8DCB24C83FCF6CFD293F0E90E /* Pods-wifidemoTests-dummy.m */; };
+		7781D019FDC251B6EF9529E2DC1F1EE9 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C5247AA8B0514C2A8C51A24F9165E3 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		785F9DF4DC9D22BA4AC2882ADC2C6C13 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B399A9F6ECC39C710F1A0DEB6242F4 /* HTTPConnection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7C58597BB73F288511F88D60CC5BA253 /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A130EF2CBC2539E45FCC7F44B3B08334 /* WebSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8A1FD163D2C766B5476ED2F1FE58CD /* CocoaAsyncSocket-dummy.m */; };
+		836D09E04AC196DB9FC6DAC61B87472F /* Pods-wifidemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB213E58C36C3BBE18E57579851E2CAD /* Pods-wifidemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4DBC23A30FEE584152DD8E08A3B2F /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		857629910DCFD031BE246A76CD371D62 /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AAD0F6AE42776990C63A62CFB0928B6 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		885342CCE9CBFF9339B389ADAF9B21C5 /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0D7531B4169CAF5873826EE65868DF /* HTTPAuthenticationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9211DDCBE640B3C8E18B13E8B66DAB2B /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 59940D2AB2E2C8BE038AB22B49544401 /* HTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9745B56D5AFD82940209BB49D5BD3199 /* PUTResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A1989EECA7ABA7214BCF4B43C2580 /* PUTResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		97495CEDB884A866C8852652AEB7853E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E173B80DB38218DD102F245F660D2389 /* Security.framework */; };
+		98ADFDE2F2D8A169244E6C9849D0ED21 /* DDOSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = CD77D36C9432D54EF3A2D99EAE680C52 /* DDOSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A0E578231363294C3AFCCABF859B39E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D594952FB3E891191235789F6DC22E3D /* Foundation.framework */; };
+		A424EA20740087C0D45DA83457DDAEC2 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3B89A008A8B352A5C0E90A877E0E25 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = A4EB443933DE7D8F0D95402F4E7AA1AF /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABEC73B9DFA56CC19C1C9365B11CBD57 /* DAVConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 393D5D2CE47F0F07CEEF1607C96ECE91 /* DAVConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C18A7A974C1442FA5B80BCD5D9B6D65 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0C87C296D222CE792CF5D234F14F9B /* HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = C716FCBDFF6250A50835D275DA5ED8B7 /* HTTPMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE869F78F42606303A97886115BA2344 /* DDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 15753CEB1BD8E33A26FE62A331673C68 /* DDRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 465947B266562A5214F007EFE95FDC3C /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B2F9ED1EA8727E7D02C6DA242FDD2E0B /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17B90F33BA88C7FDE65B150D0E6A449 /* CocoaAsyncSocket.framework */; };
+		B51FC0F86480CC08B93F685E8F6065C6 /* MultipartMessageHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F5CAE0DD7D6EA3F96987489F166FF0 /* MultipartMessageHeaderField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B688B80E8B12B7F6988B29DC592DA94D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E173B80DB38218DD102F245F660D2389 /* Security.framework */; };
+		B6BA6A2AD5C7E687F474533EB6153A78 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFB4D77E2A86B4A0C3BDD1259C1F154 /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BB656A2F01F5999FE2CCA786334D2CFE /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = B793B3CC9D8CF1B5D419B224400F9AE6 /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD7241842D1FFBD027796C7547D155F7 /* MultipartFormDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1AEB842934C00FC7E116843B346FDC /* MultipartFormDataParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C158BF96693E331F2BA4B4034E6ED5BD /* DAVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 57642F433BB0C203F747366FFAF8E68C /* DAVConnection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C3E5B4139696AEDAA483A393B2D5C696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D594952FB3E891191235789F6DC22E3D /* Foundation.framework */; };
+		C400444CF9DE3FD57B763E21F2D20B34 /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C8008A77057684666A5A63B2DF395ED /* HTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC29BB2750D5CC428648C19182B789FD /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A703B8CEBE4148C1D1574F9F2F6AA /* DDData.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D01B2EBC1AB52980422F5A831BBCE3F4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD5F45D7615290B5333C3A6AC83945 /* CFNetwork.framework */; };
+		D029027BE005DFD5B326885D95E598FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D594952FB3E891191235789F6DC22E3D /* Foundation.framework */; };
+		D047BC4B43239E7A7EA68EF58805156F /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 427350EDEDC2647945D00E1183E77C68 /* HTTPServer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D705B63B902D184C1A9E5790D1923E6B /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EBA0AA25CE7EF054C4BCA1814301BA6 /* HTTPConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D725EF1662E84BE49687847A1C2827E4 /* Pods-wifidemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24AADE3A8CA8156F4E79E07E50CD8802 /* Pods-wifidemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8AE342B3694DA821F2EAF6F9968C6B4 /* HTTPFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 189B8C2C15477F230D75036975296A15 /* HTTPFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAE67DC8466D646F91850D187539695C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CD5F45D7615290B5333C3A6AC83945 /* CFNetwork.framework */; };
+		DB484BE6721BD6B464DB122B2175ADA4 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F661C81FF64CDE8CF89505F848C600F0 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DF19675E7B97F73799AEB007E2E5ADF9 /* HTTPDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5194A3142DB6460271127020A26AD621 /* HTTPDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFCBC2A6C5B6639779BA959EC1880B61 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4D1BD226C561DC04834F931D6596E9 /* DDDispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E11CDF50B44586E7CAF60AF638E51213 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9341872E81294F9FE2773B6DEFBADD /* DDRange.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E23BA7A413551712E18F4A2CFA25C105 /* WebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6642EDEA8A4D8607786A225B5FD42D10 /* WebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43522FE77EBC00F3CABA64B2137CBFD4 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E48AB2DA61A30B9B59577375333F543C /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEFD631E95F4681E787A122F528460E /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB44239F360E15E6AAC25EFF9042786E /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D309DD6957CEDEAD0DB4B22C1D4ED9A /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF962C1283B138972913A8F478E003EF /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = F538AE2B7FBC7211EB5094092E72DBF8 /* DDNumber.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F059750C46237B6F319016207947C75A /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E218CD49A15312186DD55352969622D9 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F20DA1014A91B90D19635E76F0136D1F /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E4B7DC4FA9604EE74D9DA7BC5EA724 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F58C28DB1ACD178CD8F44EE728743775 /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0620999BF8734EC0E498E0C54F9AC079 /* DDOSLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F67664F9244ABA58B937B7E5093A0EF6 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D73699A43ADAF5986F3F581551E50 /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F7E8C4F68B52C00037665346B9FB00A2 /* DDNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D7345348E8C328775D1638A0501DEA /* DDNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		045144BB5A09CF995EBBE1000C32C590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		05F854B2C3EFA1130B8E503A18E48552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		1B7830FF534B3E142E465B7CE9D68E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D74122C6A37F2411D6625DF4D56032C;
+			remoteInfo = CocoaLumberjack;
+		};
+		8700676D49644E6E2BDF28AB42917F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D74122C6A37F2411D6625DF4D56032C;
+			remoteInfo = CocoaLumberjack;
+		};
+		C5C988AA8A72C8539D9CD710EE9E0851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A5A064B73AE926EA3F0A749DDB3773B;
+			remoteInfo = CocoaHTTPServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FB6FF48D835CE526B74EB05613D3A5 /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPRedirectResponse.m; path = Core/Responses/HTTPRedirectResponse.m; sourceTree = "<group>"; };
+		017E1CCF1BAF1B1C5774377E9D2F2A47 /* DELETEResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DELETEResponse.h; path = Extensions/WebDAV/DELETEResponse.h; sourceTree = "<group>"; };
+		03C5247AA8B0514C2A8C51A24F9165E3 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
+		0620999BF8734EC0E498E0C54F9AC079 /* DDOSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDOSLogger.m; path = Classes/DDOSLogger.m; sourceTree = "<group>"; };
+		0633F8B15347554B8EB3659C39ADDAEE /* CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.xcconfig; sourceTree = "<group>"; };
+		06CD5F45D7615290B5333C3A6AC83945 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		079D8F9AC1E4395A790967B9A090BBD0 /* MultipartMessageHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultipartMessageHeader.h; path = Core/Mime/MultipartMessageHeader.h; sourceTree = "<group>"; };
+		080B3F1063565B26F72D3F5815945572 /* Pods-wifidemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wifidemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		08DAC2CCC89B669CA340248644BA8271 /* Pods_wifidemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wifidemoUITests.framework; path = "Pods-wifidemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BDC181F67B94B0D9602F2199258DAAF /* MultipartMessageHeaderField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultipartMessageHeaderField.h; path = Core/Mime/MultipartMessageHeaderField.h; sourceTree = "<group>"; };
+		0CEFD631E95F4681E787A122F528460E /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
+		0D4A1989EECA7ABA7214BCF4B43C2580 /* PUTResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PUTResponse.m; path = Extensions/WebDAV/PUTResponse.m; sourceTree = "<group>"; };
+		0EEE139E679692E299860C0FD618019E /* CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		0F901F5ACAA8FF239E876F394C4C3FBD /* DAVResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DAVResponse.m; path = Extensions/WebDAV/DAVResponse.m; sourceTree = "<group>"; };
+		123DCD11064FD0D91F53197A7C1AE339 /* PUTResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PUTResponse.h; path = Extensions/WebDAV/PUTResponse.h; sourceTree = "<group>"; };
+		15753CEB1BD8E33A26FE62A331673C68 /* DDRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDRange.h; path = Core/Categories/DDRange.h; sourceTree = "<group>"; };
+		178426EE71239955C59D472723575E58 /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPAsyncFileResponse.m; path = Core/Responses/HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
+		189B8C2C15477F230D75036975296A15 /* HTTPFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPFileResponse.h; path = Core/Responses/HTTPFileResponse.h; sourceTree = "<group>"; };
+		1A5F23D8DCB24C83FCF6CFD293F0E90E /* Pods-wifidemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wifidemoTests-dummy.m"; sourceTree = "<group>"; };
+		21B95562845A975034BA9A80100BB17A /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		24AADE3A8CA8156F4E79E07E50CD8802 /* Pods-wifidemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wifidemoTests-umbrella.h"; sourceTree = "<group>"; };
+		274AFBFBBA725EDE71AF4E1BE66C2A82 /* CocoaHTTPServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoaHTTPServer.modulemap; sourceTree = "<group>"; };
+		27D7345348E8C328775D1638A0501DEA /* DDNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDNumber.h; path = Core/Categories/DDNumber.h; sourceTree = "<group>"; };
+		2E3B89A008A8B352A5C0E90A877E0E25 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
+		2EBA0AA25CE7EF054C4BCA1814301BA6 /* HTTPConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPConnection.h; path = Core/HTTPConnection.h; sourceTree = "<group>"; };
+		32C6327E26E39DFEE04E05971CDB258D /* CocoaHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaHTTPServer.framework; path = CocoaHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CD6BD33CEA6702A2FD63E55BFFC1B0 /* Pods-wifidemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wifidemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		36B0A78D01E9F89A2F203B7957F6A79A /* HTTPDynamicFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPDynamicFileResponse.h; path = Core/Responses/HTTPDynamicFileResponse.h; sourceTree = "<group>"; };
+		393D5D2CE47F0F07CEEF1607C96ECE91 /* DAVConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DAVConnection.h; path = Extensions/WebDAV/DAVConnection.h; sourceTree = "<group>"; };
+		3AD7D7429D65D8DABCCFCCA67E286210 /* Pods-wifidemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wifidemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B9341872E81294F9FE2773B6DEFBADD /* DDRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDRange.m; path = Core/Categories/DDRange.m; sourceTree = "<group>"; };
+		411A85DB4AE44AE02C1E17B6BC2C8F8E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4187D3A833736452AFD0A64409C753A6 /* Pods-wifidemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wifidemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		427350EDEDC2647945D00E1183E77C68 /* HTTPServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPServer.m; path = Core/HTTPServer.m; sourceTree = "<group>"; };
+		43522FE77EBC00F3CABA64B2137CBFD4 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		44106ACB80DAC8B23F947489B84BA253 /* DAVResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DAVResponse.h; path = Extensions/WebDAV/DAVResponse.h; sourceTree = "<group>"; };
+		465947B266562A5214F007EFE95FDC3C /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		49474A96B041A60199EC9C7C568CE70C /* CocoaLumberjack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-umbrella.h"; sourceTree = "<group>"; };
+		4C06F7D41F9684CFFEF8497BC363D5B2 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaLumberjack.framework; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		500B980EF5B8BF47DA7B3F45EE8D15CD /* CocoaHTTPServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaHTTPServer-dummy.m"; sourceTree = "<group>"; };
+		500D8FCF1EA516F9CAA847A13009A408 /* CocoaHTTPServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaHTTPServer-prefix.pch"; sourceTree = "<group>"; };
+		5194A3142DB6460271127020A26AD621 /* HTTPDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPDataResponse.h; path = Core/Responses/HTTPDataResponse.h; sourceTree = "<group>"; };
+		5364518FDAE5812E0E61A50537B5F6B2 /* Pods_wifidemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wifidemo.framework; path = "Pods-wifidemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B0979496B939439C2A88CB8878A378 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
+		57642F433BB0C203F747366FFAF8E68C /* DAVConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DAVConnection.m; path = Extensions/WebDAV/DAVConnection.m; sourceTree = "<group>"; };
+		59940D2AB2E2C8BE038AB22B49544401 /* HTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPResponse.h; path = Core/HTTPResponse.h; sourceTree = "<group>"; };
+		5DB68850BE3CE2FD9A3158B6899BAE18 /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPRedirectResponse.h; path = Core/Responses/HTTPRedirectResponse.h; sourceTree = "<group>"; };
+		621BCEE28A3528BE31BBD2A330CD3751 /* Pods-wifidemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wifidemo-dummy.m"; sourceTree = "<group>"; };
+		6293BDE5F51DE48D849EFF17A110567A /* Pods-wifidemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wifidemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62BC81815B8A702C3E0718AD36C711C7 /* Pods-wifidemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wifidemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		63D3201D827856BD3286B02043E619EB /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPAsyncFileResponse.h; path = Core/Responses/HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		652F255179A2A96375FC485B55414D61 /* CocoaHTTPServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaHTTPServer.xcconfig; sourceTree = "<group>"; };
+		65E383656D72CA526582933D3BE58074 /* Pods-wifidemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wifidemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6642EDEA8A4D8607786A225B5FD42D10 /* WebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebSocket.h; path = Core/WebSocket.h; sourceTree = "<group>"; };
+		67168BF8D3B61FFA98A03C9BB224F561 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
+		677835C9EAF98D77C1C8905F5056095C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AFB4D77E2A86B4A0C3BDD1259C1F154 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
+		6C18A7A974C1442FA5B80BCD5D9B6D65 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		6C78F1538A17D32906690B37E30DA2D6 /* HTTPMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPMessage.m; path = Core/HTTPMessage.m; sourceTree = "<group>"; };
+		6CF5BE8D74E97B46A70DCF7247C6D702 /* Pods-wifidemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wifidemo.release.xcconfig"; sourceTree = "<group>"; };
+		6D67F847C80CABBFD4E6AA0FE174BE49 /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
+		713760BC06D20892F00DE90F8B979DBB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F721111FE1CD62FA345C3C79A35B9B /* Pods-wifidemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wifidemoTests-resources.sh"; sourceTree = "<group>"; };
+		74B6922B247DD52A3AB60C00F66D9BBE /* MultipartFormDataParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MultipartFormDataParser.m; path = Core/Mime/MultipartFormDataParser.m; sourceTree = "<group>"; };
+		76E4B7DC4FA9604EE74D9DA7BC5EA724 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		779C0491EDCFB4EA8A6ECCBAFC8B36F4 /* Pods-wifidemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wifidemoUITests-dummy.m"; sourceTree = "<group>"; };
+		77BF13CD210FCEE5283FC2D28FAE02C0 /* CocoaHTTPServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaHTTPServer-umbrella.h"; sourceTree = "<group>"; };
+		7C8008A77057684666A5A63B2DF395ED /* HTTPServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPServer.h; path = Core/HTTPServer.h; sourceTree = "<group>"; };
+		7CA1493F15801B42B2B2ACD27E4CAD0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6EE3A1176801909CB24ECCD6C1D599 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86685052FD61DECE99CF0B88F55B9764 /* Pods-wifidemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wifidemoUITests-resources.sh"; sourceTree = "<group>"; };
+		87E14F3BDAAF9C547514E7E6601AAF92 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		88B399A9F6ECC39C710F1A0DEB6242F4 /* HTTPConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPConnection.m; path = Core/HTTPConnection.m; sourceTree = "<group>"; };
+		89F5CAE0DD7D6EA3F96987489F166FF0 /* MultipartMessageHeaderField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MultipartMessageHeaderField.m; path = Core/Mime/MultipartMessageHeaderField.m; sourceTree = "<group>"; };
+		8AAD0F6AE42776990C63A62CFB0928B6 /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
+		8AE84E92FFCDD2E684837DEDB46E0D93 /* HTTPFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPFileResponse.m; path = Core/Responses/HTTPFileResponse.m; sourceTree = "<group>"; };
+		8B1AEB842934C00FC7E116843B346FDC /* MultipartFormDataParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultipartFormDataParser.h; path = Core/Mime/MultipartFormDataParser.h; sourceTree = "<group>"; };
+		8B8A1FD163D2C766B5476ED2F1FE58CD /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		90D428719CE92CF786B0B152EE4ABDD8 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A78266E479F2E50EB3AF0C2D996F10 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
+		922EA71C4E5BEFE8F573846C4D762B8F /* Pods-wifidemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wifidemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		929E257F961B3B5726571AAFA30C1A9C /* Pods-wifidemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-wifidemo.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97A2ACF03E80F6C1E6EEB49AC22028D1 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
+		9D309DD6957CEDEAD0DB4B22C1D4ED9A /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Classes/DDLog+LOGV.h"; sourceTree = "<group>"; };
+		A03A4063536376FDAB8769CF799E413D /* Pods-wifidemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wifidemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		A130EF2CBC2539E45FCC7F44B3B08334 /* WebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebSocket.m; path = Core/WebSocket.m; sourceTree = "<group>"; };
+		A4EB443933DE7D8F0D95402F4E7AA1AF /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		A58659D49E2BDD72E3F9B2DBE907F1BD /* Pods-wifidemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-wifidemoTests.modulemap"; sourceTree = "<group>"; };
+		A77D25A43FBA4A18082FC25B6EEA71FB /* Pods-wifidemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-wifidemoUITests.modulemap"; sourceTree = "<group>"; };
+		AD43BEC7A2C548C0CE03628533B99D73 /* DDData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDData.h; path = Core/Categories/DDData.h; sourceTree = "<group>"; };
+		ADB7DB0430E512E98A9457D8C0554A76 /* Pods-wifidemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wifidemo-frameworks.sh"; sourceTree = "<group>"; };
+		B793B3CC9D8CF1B5D419B224400F9AE6 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
+		BCC589459A3C2DE0ED5CD86CC30F8E12 /* MultipartMessageHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MultipartMessageHeader.m; path = Core/Mime/MultipartMessageHeader.m; sourceTree = "<group>"; };
+		C04115BA6793A87BA4D52DFE466337C8 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		C2451D5E5BB23F17CC21D70F5544021D /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
+		C30EAA1E2BB837679FE35C857DA4B705 /* Pods-wifidemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wifidemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C3B035222B4B77178641F18CF8ED14BC /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		C3D4DBC23A30FEE584152DD8E08A3B2F /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		C4AFD89D4A38D05BFEB8F4B10A7F95BD /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPAuthenticationRequest.m; path = Core/HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
+		C6686197DF50AE9543ACEFF7013B847B /* Pods-wifidemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wifidemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C716FCBDFF6250A50835D275DA5ED8B7 /* HTTPMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPMessage.h; path = Core/HTTPMessage.h; sourceTree = "<group>"; };
+		CB24106421FB092F3369A9CDAFBFACDA /* Pods_wifidemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wifidemoTests.framework; path = "Pods-wifidemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0D7531B4169CAF5873826EE65868DF /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPAuthenticationRequest.h; path = Core/HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
+		CD2409A9A1E39C1F81C66BD48A954B49 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD77D36C9432D54EF3A2D99EAE680C52 /* DDOSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDOSLogger.h; path = Classes/DDOSLogger.h; sourceTree = "<group>"; };
+		D11F28F69583309CB9E72EAC8F972C1C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4F8D09FE52EDDBD5D58EACF65582C75 /* Pods-wifidemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wifidemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		D594952FB3E891191235789F6DC22E3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D72BAFED5B620E0ADF00B341B1A005E3 /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Classes/DDASLLogCapture.h; sourceTree = "<group>"; };
+		D906DFF9DF30702C571DADBE7B215333 /* CocoaLumberjack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoaLumberjack.modulemap; sourceTree = "<group>"; };
+		D91A703B8CEBE4148C1D1574F9F2F6AA /* DDData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDData.m; path = Core/Categories/DDData.m; sourceTree = "<group>"; };
+		DAA4E72E0A07E0AB343A8ABD93580359 /* DELETEResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DELETEResponse.m; path = Extensions/WebDAV/DELETEResponse.m; sourceTree = "<group>"; };
+		E0DC58462D1662F838BD21F907CB7D18 /* HTTPLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPLogging.h; path = Core/HTTPLogging.h; sourceTree = "<group>"; };
+		E0E2DC42F6821809234179B0F7CF6DD3 /* Pods-wifidemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wifidemo-resources.sh"; sourceTree = "<group>"; };
+		E173B80DB38218DD102F245F660D2389 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		E218CD49A15312186DD55352969622D9 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		E312F2B20131B94C0B9C0A5B8B931C7D /* Pods-wifidemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wifidemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E57D73699A43ADAF5986F3F581551E50 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Classes/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
+		E743BD124368A44EB6651865197142D3 /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
+		ED4D1BD226C561DC04834F931D6596E9 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		F0D1F8DF34DEF8B86700F478962D1EEF /* HTTPDynamicFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPDynamicFileResponse.m; path = Core/Responses/HTTPDynamicFileResponse.m; sourceTree = "<group>"; };
+		F16F8DBBAC11B99636FF715F96541143 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		F17B90F33BA88C7FDE65B150D0E6A449 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F332FED4D5AF36098D6D3736EFD23D77 /* Pods-wifidemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wifidemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F538AE2B7FBC7211EB5094092E72DBF8 /* DDNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDNumber.m; path = Core/Categories/DDNumber.m; sourceTree = "<group>"; };
+		F5B828C2FC67F30F38D5F0C3A5B65C9E /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		F661C81FF64CDE8CF89505F848C600F0 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		FB213E58C36C3BBE18E57579851E2CAD /* Pods-wifidemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wifidemo-umbrella.h"; sourceTree = "<group>"; };
+		FC157D511FD759E5B9621F300546B753 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
+		FD5665C36A17953892F4428E5C579C4D /* HTTPDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPDataResponse.m; path = Core/Responses/HTTPDataResponse.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33E24322C67B75013EBA5AF503970DE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D029027BE005DFD5B326885D95E598FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB4665D1685BDDF5C7FF890EB78AC433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE67DC8466D646F91850D187539695C /* CFNetwork.framework in Frameworks */,
+				B2F9ED1EA8727E7D02C6DA242FDD2E0B /* CocoaAsyncSocket.framework in Frameworks */,
+				691EB2540E2DA200DAF4B1CB5100C255 /* CocoaLumberjack.framework in Frameworks */,
+				C3E5B4139696AEDAA483A393B2D5C696 /* Foundation.framework in Frameworks */,
+				97495CEDB884A866C8852652AEB7853E /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBB5B902ECAAC6780C67C3792A064A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0E578231363294C3AFCCABF859B39E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C2C126168B038B9B15BF2A4C96FDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01B2EBC1AB52980422F5A831BBCE3F4 /* CFNetwork.framework in Frameworks */,
+				2DAA98C8614A6DED26CE8712531AE1FC /* Foundation.framework in Frameworks */,
+				B688B80E8B12B7F6988B29DC592DA94D /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98FA9AEB488783D996F699485B7B90F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D8501CC52A66D0DD5E94CE5F75D3DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D468988FB1DEAEF2AE9EA7A89AA5FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA8750B9E7EB5E54AAF7A92BE65CCCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059486F300E453A8E8544CDB5903ABD9 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				A4EB443933DE7D8F0D95402F4E7AA1AF /* GCDAsyncSocket.h */,
+				C3D4DBC23A30FEE584152DD8E08A3B2F /* GCDAsyncSocket.m */,
+				6C18A7A974C1442FA5B80BCD5D9B6D65 /* GCDAsyncUdpSocket.h */,
+				465947B266562A5214F007EFE95FDC3C /* GCDAsyncUdpSocket.m */,
+				743DC845B79D0D624B0C7736F6C45CB1 /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		08B54B3F43E22805958B539176D17301 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D906DFF9DF30702C571DADBE7B215333 /* CocoaLumberjack.modulemap */,
+				0633F8B15347554B8EB3659C39ADDAEE /* CocoaLumberjack.xcconfig */,
+				0EEE139E679692E299860C0FD618019E /* CocoaLumberjack-dummy.m */,
+				F5B828C2FC67F30F38D5F0C3A5B65C9E /* CocoaLumberjack-prefix.pch */,
+				49474A96B041A60199EC9C7C568CE70C /* CocoaLumberjack-umbrella.h */,
+				713760BC06D20892F00DE90F8B979DBB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaLumberjack";
+			sourceTree = "<group>";
+		};
+		25711A710DA8226AC74DDFE9C9526170 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				06CD5F45D7615290B5333C3A6AC83945 /* CFNetwork.framework */,
+				D594952FB3E891191235789F6DC22E3D /* Foundation.framework */,
+				E173B80DB38218DD102F245F660D2389 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		266F7688965858D50D8D1C82ADA110AC /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				B793B3CC9D8CF1B5D419B224400F9AE6 /* CocoaLumberjack.h */,
+				E218CD49A15312186DD55352969622D9 /* DDAbstractDatabaseLogger.h */,
+				F661C81FF64CDE8CF89505F848C600F0 /* DDAbstractDatabaseLogger.m */,
+				D72BAFED5B620E0ADF00B341B1A005E3 /* DDASLLogCapture.h */,
+				53B0979496B939439C2A88CB8878A378 /* DDASLLogCapture.m */,
+				03C5247AA8B0514C2A8C51A24F9165E3 /* DDASLLogger.h */,
+				6AFB4D77E2A86B4A0C3BDD1259C1F154 /* DDASLLogger.m */,
+				0CEFD631E95F4681E787A122F528460E /* DDAssertMacros.h */,
+				FC157D511FD759E5B9621F300546B753 /* DDFileLogger.h */,
+				C2451D5E5BB23F17CC21D70F5544021D /* DDFileLogger.m */,
+				97A2ACF03E80F6C1E6EEB49AC22028D1 /* DDLegacyMacros.h */,
+				91A78266E479F2E50EB3AF0C2D996F10 /* DDLog.h */,
+				67168BF8D3B61FFA98A03C9BB224F561 /* DDLog.m */,
+				9D309DD6957CEDEAD0DB4B22C1D4ED9A /* DDLog+LOGV.h */,
+				8AAD0F6AE42776990C63A62CFB0928B6 /* DDLogMacros.h */,
+				CD77D36C9432D54EF3A2D99EAE680C52 /* DDOSLogger.h */,
+				0620999BF8734EC0E498E0C54F9AC079 /* DDOSLogger.m */,
+				2E3B89A008A8B352A5C0E90A877E0E25 /* DDTTYLogger.h */,
+				6D67F847C80CABBFD4E6AA0FE174BE49 /* DDTTYLogger.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		59A895C7B4F85C27E1CDC097EB6054DC /* Pods-wifidemo */ = {
+			isa = PBXGroup;
+			children = (
+				7CA1493F15801B42B2B2ACD27E4CAD0F /* Info.plist */,
+				929E257F961B3B5726571AAFA30C1A9C /* Pods-wifidemo.modulemap */,
+				922EA71C4E5BEFE8F573846C4D762B8F /* Pods-wifidemo-acknowledgements.markdown */,
+				62BC81815B8A702C3E0718AD36C711C7 /* Pods-wifidemo-acknowledgements.plist */,
+				621BCEE28A3528BE31BBD2A330CD3751 /* Pods-wifidemo-dummy.m */,
+				ADB7DB0430E512E98A9457D8C0554A76 /* Pods-wifidemo-frameworks.sh */,
+				E0E2DC42F6821809234179B0F7CF6DD3 /* Pods-wifidemo-resources.sh */,
+				FB213E58C36C3BBE18E57579851E2CAD /* Pods-wifidemo-umbrella.h */,
+				F332FED4D5AF36098D6D3736EFD23D77 /* Pods-wifidemo.debug.xcconfig */,
+				6CF5BE8D74E97B46A70DCF7247C6D702 /* Pods-wifidemo.release.xcconfig */,
+			);
+			name = "Pods-wifidemo";
+			path = "Target Support Files/Pods-wifidemo";
+			sourceTree = "<group>";
+		};
+		634338126D4F0157365D862B6D450177 /* CocoaHTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				393D5D2CE47F0F07CEEF1607C96ECE91 /* DAVConnection.h */,
+				57642F433BB0C203F747366FFAF8E68C /* DAVConnection.m */,
+				44106ACB80DAC8B23F947489B84BA253 /* DAVResponse.h */,
+				0F901F5ACAA8FF239E876F394C4C3FBD /* DAVResponse.m */,
+				AD43BEC7A2C548C0CE03628533B99D73 /* DDData.h */,
+				D91A703B8CEBE4148C1D1574F9F2F6AA /* DDData.m */,
+				27D7345348E8C328775D1638A0501DEA /* DDNumber.h */,
+				F538AE2B7FBC7211EB5094092E72DBF8 /* DDNumber.m */,
+				15753CEB1BD8E33A26FE62A331673C68 /* DDRange.h */,
+				3B9341872E81294F9FE2773B6DEFBADD /* DDRange.m */,
+				017E1CCF1BAF1B1C5774377E9D2F2A47 /* DELETEResponse.h */,
+				DAA4E72E0A07E0AB343A8ABD93580359 /* DELETEResponse.m */,
+				63D3201D827856BD3286B02043E619EB /* HTTPAsyncFileResponse.h */,
+				178426EE71239955C59D472723575E58 /* HTTPAsyncFileResponse.m */,
+				CD0D7531B4169CAF5873826EE65868DF /* HTTPAuthenticationRequest.h */,
+				C4AFD89D4A38D05BFEB8F4B10A7F95BD /* HTTPAuthenticationRequest.m */,
+				2EBA0AA25CE7EF054C4BCA1814301BA6 /* HTTPConnection.h */,
+				88B399A9F6ECC39C710F1A0DEB6242F4 /* HTTPConnection.m */,
+				5194A3142DB6460271127020A26AD621 /* HTTPDataResponse.h */,
+				FD5665C36A17953892F4428E5C579C4D /* HTTPDataResponse.m */,
+				36B0A78D01E9F89A2F203B7957F6A79A /* HTTPDynamicFileResponse.h */,
+				F0D1F8DF34DEF8B86700F478962D1EEF /* HTTPDynamicFileResponse.m */,
+				189B8C2C15477F230D75036975296A15 /* HTTPFileResponse.h */,
+				8AE84E92FFCDD2E684837DEDB46E0D93 /* HTTPFileResponse.m */,
+				E0DC58462D1662F838BD21F907CB7D18 /* HTTPLogging.h */,
+				C716FCBDFF6250A50835D275DA5ED8B7 /* HTTPMessage.h */,
+				6C78F1538A17D32906690B37E30DA2D6 /* HTTPMessage.m */,
+				5DB68850BE3CE2FD9A3158B6899BAE18 /* HTTPRedirectResponse.h */,
+				00FB6FF48D835CE526B74EB05613D3A5 /* HTTPRedirectResponse.m */,
+				59940D2AB2E2C8BE038AB22B49544401 /* HTTPResponse.h */,
+				7C8008A77057684666A5A63B2DF395ED /* HTTPServer.h */,
+				427350EDEDC2647945D00E1183E77C68 /* HTTPServer.m */,
+				8B1AEB842934C00FC7E116843B346FDC /* MultipartFormDataParser.h */,
+				74B6922B247DD52A3AB60C00F66D9BBE /* MultipartFormDataParser.m */,
+				079D8F9AC1E4395A790967B9A090BBD0 /* MultipartMessageHeader.h */,
+				BCC589459A3C2DE0ED5CD86CC30F8E12 /* MultipartMessageHeader.m */,
+				0BDC181F67B94B0D9602F2199258DAAF /* MultipartMessageHeaderField.h */,
+				89F5CAE0DD7D6EA3F96987489F166FF0 /* MultipartMessageHeaderField.m */,
+				123DCD11064FD0D91F53197A7C1AE339 /* PUTResponse.h */,
+				0D4A1989EECA7ABA7214BCF4B43C2580 /* PUTResponse.m */,
+				6642EDEA8A4D8607786A225B5FD42D10 /* WebSocket.h */,
+				A130EF2CBC2539E45FCC7F44B3B08334 /* WebSocket.m */,
+				BFDAA67B4B224E3342B498D374BFD25E /* Support Files */,
+			);
+			name = CocoaHTTPServer;
+			path = CocoaHTTPServer;
+			sourceTree = "<group>";
+		};
+		743DC845B79D0D624B0C7736F6C45CB1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3B035222B4B77178641F18CF8ED14BC /* CocoaAsyncSocket.modulemap */,
+				C04115BA6793A87BA4D52DFE466337C8 /* CocoaAsyncSocket.xcconfig */,
+				8B8A1FD163D2C766B5476ED2F1FE58CD /* CocoaAsyncSocket-dummy.m */,
+				21B95562845A975034BA9A80100BB17A /* CocoaAsyncSocket-prefix.pch */,
+				43522FE77EBC00F3CABA64B2137CBFD4 /* CocoaAsyncSocket-umbrella.h */,
+				CD2409A9A1E39C1F81C66BD48A954B49 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		7856015829AD1019C7DC130B8AFD83DE /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				266F7688965858D50D8D1C82ADA110AC /* Default */,
+				ADCEF68FA3B7CC1317E039195FE05401 /* Extensions */,
+				08B54B3F43E22805958B539176D17301 /* Support Files */,
+			);
+			name = CocoaLumberjack;
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E8AD4A50F32AF0C5B880B2652B2A0A8B /* Frameworks */,
+				7FF97F2B0A675CEFAA812EDF457E6620 /* Pods */,
+				B13D04917FEE68186D5731683FAF4F04 /* Products */,
+				E1CC544F9CE715CB11ACEE5ED1062806 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FF97F2B0A675CEFAA812EDF457E6620 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				059486F300E453A8E8544CDB5903ABD9 /* CocoaAsyncSocket */,
+				634338126D4F0157365D862B6D450177 /* CocoaHTTPServer */,
+				7856015829AD1019C7DC130B8AFD83DE /* CocoaLumberjack */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADCEF68FA3B7CC1317E039195FE05401 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F16F8DBBAC11B99636FF715F96541143 /* DDContextFilterLogFormatter.h */,
+				87E14F3BDAAF9C547514E7E6601AAF92 /* DDContextFilterLogFormatter.m */,
+				76E4B7DC4FA9604EE74D9DA7BC5EA724 /* DDDispatchQueueLogFormatter.h */,
+				ED4D1BD226C561DC04834F931D6596E9 /* DDDispatchQueueLogFormatter.m */,
+				E743BD124368A44EB6651865197142D3 /* DDMultiFormatter.h */,
+				E57D73699A43ADAF5986F3F581551E50 /* DDMultiFormatter.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B13D04917FEE68186D5731683FAF4F04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D11F28F69583309CB9E72EAC8F972C1C /* CocoaAsyncSocket.framework */,
+				32C6327E26E39DFEE04E05971CDB258D /* CocoaHTTPServer.framework */,
+				4C06F7D41F9684CFFEF8497BC363D5B2 /* CocoaLumberjack.framework */,
+				5364518FDAE5812E0E61A50537B5F6B2 /* Pods_wifidemo.framework */,
+				CB24106421FB092F3369A9CDAFBFACDA /* Pods_wifidemoTests.framework */,
+				08DAC2CCC89B669CA340248644BA8271 /* Pods_wifidemoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFDAA67B4B224E3342B498D374BFD25E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				274AFBFBBA725EDE71AF4E1BE66C2A82 /* CocoaHTTPServer.modulemap */,
+				652F255179A2A96375FC485B55414D61 /* CocoaHTTPServer.xcconfig */,
+				500B980EF5B8BF47DA7B3F45EE8D15CD /* CocoaHTTPServer-dummy.m */,
+				500D8FCF1EA516F9CAA847A13009A408 /* CocoaHTTPServer-prefix.pch */,
+				77BF13CD210FCEE5283FC2D28FAE02C0 /* CocoaHTTPServer-umbrella.h */,
+				677835C9EAF98D77C1C8905F5056095C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaHTTPServer";
+			sourceTree = "<group>";
+		};
+		CB28B0B9093625A99B07D02A69985C2A /* Pods-wifidemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				411A85DB4AE44AE02C1E17B6BC2C8F8E /* Info.plist */,
+				A77D25A43FBA4A18082FC25B6EEA71FB /* Pods-wifidemoUITests.modulemap */,
+				6293BDE5F51DE48D849EFF17A110567A /* Pods-wifidemoUITests-acknowledgements.markdown */,
+				080B3F1063565B26F72D3F5815945572 /* Pods-wifidemoUITests-acknowledgements.plist */,
+				779C0491EDCFB4EA8A6ECCBAFC8B36F4 /* Pods-wifidemoUITests-dummy.m */,
+				65E383656D72CA526582933D3BE58074 /* Pods-wifidemoUITests-frameworks.sh */,
+				86685052FD61DECE99CF0B88F55B9764 /* Pods-wifidemoUITests-resources.sh */,
+				D4F8D09FE52EDDBD5D58EACF65582C75 /* Pods-wifidemoUITests-umbrella.h */,
+				3AD7D7429D65D8DABCCFCCA67E286210 /* Pods-wifidemoUITests.debug.xcconfig */,
+				C30EAA1E2BB837679FE35C857DA4B705 /* Pods-wifidemoUITests.release.xcconfig */,
+			);
+			name = "Pods-wifidemoUITests";
+			path = "Target Support Files/Pods-wifidemoUITests";
+			sourceTree = "<group>";
+		};
+		E1CC544F9CE715CB11ACEE5ED1062806 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59A895C7B4F85C27E1CDC097EB6054DC /* Pods-wifidemo */,
+				FCC4A0E0F97A95EACEAEAE63D6197659 /* Pods-wifidemoTests */,
+				CB28B0B9093625A99B07D02A69985C2A /* Pods-wifidemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E8AD4A50F32AF0C5B880B2652B2A0A8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F17B90F33BA88C7FDE65B150D0E6A449 /* CocoaAsyncSocket.framework */,
+				90D428719CE92CF786B0B152EE4ABDD8 /* CocoaLumberjack.framework */,
+				25711A710DA8226AC74DDFE9C9526170 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCC4A0E0F97A95EACEAEAE63D6197659 /* Pods-wifidemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E6EE3A1176801909CB24ECCD6C1D599 /* Info.plist */,
+				A58659D49E2BDD72E3F9B2DBE907F1BD /* Pods-wifidemoTests.modulemap */,
+				4187D3A833736452AFD0A64409C753A6 /* Pods-wifidemoTests-acknowledgements.markdown */,
+				E312F2B20131B94C0B9C0A5B8B931C7D /* Pods-wifidemoTests-acknowledgements.plist */,
+				1A5F23D8DCB24C83FCF6CFD293F0E90E /* Pods-wifidemoTests-dummy.m */,
+				A03A4063536376FDAB8769CF799E413D /* Pods-wifidemoTests-frameworks.sh */,
+				72F721111FE1CD62FA345C3C79A35B9B /* Pods-wifidemoTests-resources.sh */,
+				24AADE3A8CA8156F4E79E07E50CD8802 /* Pods-wifidemoTests-umbrella.h */,
+				C6686197DF50AE9543ACEFF7013B847B /* Pods-wifidemoTests.debug.xcconfig */,
+				35CD6BD33CEA6702A2FD63E55BFFC1B0 /* Pods-wifidemoTests.release.xcconfig */,
+			);
+			name = "Pods-wifidemoTests";
+			path = "Target Support Files/Pods-wifidemoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01518786118CD71816AC3845C0EA9E9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D725EF1662E84BE49687847A1C2827E4 /* Pods-wifidemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		066131069354C4CC132CAB645145E8F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */,
+				A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */,
+				AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		600F38A3E0617B3F9D632D8CE9FEFE79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45367B636A63E277B24A2948A46696D0 /* Pods-wifidemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B54B7076052F956ECBECD267331E77D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E082E9D1E865CF11E503CA14FA94B2 /* CocoaHTTPServer-umbrella.h in Headers */,
+				ABEC73B9DFA56CC19C1C9365B11CBD57 /* DAVConnection.h in Headers */,
+				1D5F7E19510838D8C49FAC24C154D740 /* DAVResponse.h in Headers */,
+				58F9C74778744AF8133746ED5E6E30CF /* DDData.h in Headers */,
+				F7E8C4F68B52C00037665346B9FB00A2 /* DDNumber.h in Headers */,
+				AE869F78F42606303A97886115BA2344 /* DDRange.h in Headers */,
+				4AF5C6D278D4076E9E94B1E7CE78C71C /* DELETEResponse.h in Headers */,
+				55CFD8EDD1D19170A8A323CA5A739F70 /* HTTPAsyncFileResponse.h in Headers */,
+				885342CCE9CBFF9339B389ADAF9B21C5 /* HTTPAuthenticationRequest.h in Headers */,
+				D705B63B902D184C1A9E5790D1923E6B /* HTTPConnection.h in Headers */,
+				DF19675E7B97F73799AEB007E2E5ADF9 /* HTTPDataResponse.h in Headers */,
+				125C60ECA9FB55C5B2AF4420CBD72F6F /* HTTPDynamicFileResponse.h in Headers */,
+				D8AE342B3694DA821F2EAF6F9968C6B4 /* HTTPFileResponse.h in Headers */,
+				0D2E47FB465BAA1A5D59BA35A4642822 /* HTTPLogging.h in Headers */,
+				AD0C87C296D222CE792CF5D234F14F9B /* HTTPMessage.h in Headers */,
+				559E5FD7FFB5D4944D8C1457F71DC8D4 /* HTTPRedirectResponse.h in Headers */,
+				9211DDCBE640B3C8E18B13E8B66DAB2B /* HTTPResponse.h in Headers */,
+				C400444CF9DE3FD57B763E21F2D20B34 /* HTTPServer.h in Headers */,
+				BD7241842D1FFBD027796C7547D155F7 /* MultipartFormDataParser.h in Headers */,
+				1FB4D06B8C0B4354384C6B0EC4D2C5B5 /* MultipartMessageHeader.h in Headers */,
+				4E82A3C86921B93648D67C779AD54636 /* MultipartMessageHeaderField.h in Headers */,
+				183DE0D906B136D525442686ECBDA60C /* PUTResponse.h in Headers */,
+				E23BA7A413551712E18F4A2CFA25C105 /* WebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B955F01A41B6E4461674D4E271A4C6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836D09E04AC196DB9FC6DAC61B87472F /* Pods-wifidemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832091959C9C503AD802BDD95BD260E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F82DB1B4952D2EAED9B20B9A63DBD0E /* CocoaLumberjack-umbrella.h in Headers */,
+				BB656A2F01F5999FE2CCA786334D2CFE /* CocoaLumberjack.h in Headers */,
+				F059750C46237B6F319016207947C75A /* DDAbstractDatabaseLogger.h in Headers */,
+				2BEA7A932C81C942F35E444F816A3B83 /* DDASLLogCapture.h in Headers */,
+				7781D019FDC251B6EF9529E2DC1F1EE9 /* DDASLLogger.h in Headers */,
+				E48AB2DA61A30B9B59577375333F543C /* DDAssertMacros.h in Headers */,
+				01B98F21400F82F308802B1CDA7B8EF6 /* DDContextFilterLogFormatter.h in Headers */,
+				F20DA1014A91B90D19635E76F0136D1F /* DDDispatchQueueLogFormatter.h in Headers */,
+				61DB921D87E3D9B48CF107897B26C211 /* DDFileLogger.h in Headers */,
+				48EDEB6E693DE9C7C5108163D7EBFDC1 /* DDLegacyMacros.h in Headers */,
+				EB44239F360E15E6AAC25EFF9042786E /* DDLog+LOGV.h in Headers */,
+				15D0885098D4528041F2DB5D6C8DF35D /* DDLog.h in Headers */,
+				857629910DCFD031BE246A76CD371D62 /* DDLogMacros.h in Headers */,
+				05C12D309CC138659263A4F597DC252E /* DDMultiFormatter.h in Headers */,
+				98ADFDE2F2D8A169244E6C9849D0ED21 /* DDOSLogger.h in Headers */,
+				A424EA20740087C0D45DA83457DDAEC2 /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A5A064B73AE926EA3F0A749DDB3773B /* CocoaHTTPServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F779D13850B473E11F17BE610EE99C4 /* Build configuration list for PBXNativeTarget "CocoaHTTPServer" */;
+			buildPhases = (
+				42954735D35DBA59C2BC5CF1393BFA20 /* Sources */,
+				BB4665D1685BDDF5C7FF890EB78AC433 /* Frameworks */,
+				6B54B7076052F956ECBECD267331E77D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F056010729523842CBD7F8CEC5D87D79 /* PBXTargetDependency */,
+				35AC6560F9186B51F7F7D407FEFE68BD /* PBXTargetDependency */,
+			);
+			name = CocoaHTTPServer;
+			productName = CocoaHTTPServer;
+			productReference = 32C6327E26E39DFEE04E05971CDB258D /* CocoaHTTPServer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2AA42A2D91A79BDBE789396C50A1E07D /* Pods-wifidemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4829CC6585050E3B626414EE6E9413D4 /* Build configuration list for PBXNativeTarget "Pods-wifidemoUITests" */;
+			buildPhases = (
+				E9DA41FC08AAC0BC17DAE6295E03C120 /* Sources */,
+				D98FA9AEB488783D996F699485B7B90F /* Frameworks */,
+				600F38A3E0617B3F9D632D8CE9FEFE79 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-wifidemoUITests";
+			productName = "Pods-wifidemoUITests";
+			productReference = 08DAC2CCC89B669CA340248644BA8271 /* Pods_wifidemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D74122C6A37F2411D6625DF4D56032C /* CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616FD1182B47D3354A7830F15A45F425 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */;
+			buildPhases = (
+				DAE2849CC3724927530A595A14A6F1B8 /* Sources */,
+				F7D468988FB1DEAEF2AE9EA7A89AA5FC /* Frameworks */,
+				832091959C9C503AD802BDD95BD260E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaLumberjack;
+			productName = CocoaLumberjack;
+			productReference = 4C06F7D41F9684CFFEF8497BC363D5B2 /* CocoaLumberjack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E5CCB1D12104A2EB4330C4CB179A4C0 /* Pods-wifidemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCB3B5F19DFFD8212579CA5EACB340A /* Build configuration list for PBXNativeTarget "Pods-wifidemo" */;
+			buildPhases = (
+				8644F57980A7DA24AE425CD597F04C90 /* Sources */,
+				CFBB5B902ECAAC6780C67C3792A064A2 /* Frameworks */,
+				6B955F01A41B6E4461674D4E271A4C6F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FA42AF1EDE75DD1BE1ED0FCC7A2D33C /* PBXTargetDependency */,
+				C3EBA0E1D76017F44616207E71E30991 /* PBXTargetDependency */,
+				69F1FD4DFFC178E27B4E470EB4E93B8D /* PBXTargetDependency */,
+			);
+			name = "Pods-wifidemo";
+			productName = "Pods-wifidemo";
+			productReference = 5364518FDAE5812E0E61A50537B5F6B2 /* Pods_wifidemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D5ADE5F7F90FE3BED46EC8ED2FA6CB0 /* Pods-wifidemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED10463021DB15C82A55B054C0A0B82 /* Build configuration list for PBXNativeTarget "Pods-wifidemoTests" */;
+			buildPhases = (
+				2DE388D8BBAE82DB3BB9C78E7CA276A2 /* Sources */,
+				33E24322C67B75013EBA5AF503970DE6 /* Frameworks */,
+				01518786118CD71816AC3845C0EA9E9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-wifidemoTests";
+			productName = "Pods-wifidemoTests";
+			productReference = CB24106421FB092F3369A9CDAFBFACDA /* Pods_wifidemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A03B912F777B2BFB05E7B9E903B15F /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				FD452A203117FF8DFA26B0711D439093 /* Sources */,
+				D1C2C126168B038B9B15BF2A4C96FDDC /* Frameworks */,
+				066131069354C4CC132CAB645145E8F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = D11F28F69583309CB9E72EAC8F972C1C /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B13D04917FEE68186D5731683FAF4F04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */,
+				2A5A064B73AE926EA3F0A749DDB3773B /* CocoaHTTPServer */,
+				5D74122C6A37F2411D6625DF4D56032C /* CocoaLumberjack */,
+				5E5CCB1D12104A2EB4330C4CB179A4C0 /* Pods-wifidemo */,
+				7D5ADE5F7F90FE3BED46EC8ED2FA6CB0 /* Pods-wifidemoTests */,
+				2AA42A2D91A79BDBE789396C50A1E07D /* Pods-wifidemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DE388D8BBAE82DB3BB9C78E7CA276A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75373108584704F0B2FE853077A74DDA /* Pods-wifidemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42954735D35DBA59C2BC5CF1393BFA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB69BBE2692108DE3B2D0C86707B6CA /* CocoaHTTPServer-dummy.m in Sources */,
+				C158BF96693E331F2BA4B4034E6ED5BD /* DAVConnection.m in Sources */,
+				6BF59059F591BA8D530FF31F554130A4 /* DAVResponse.m in Sources */,
+				CC29BB2750D5CC428648C19182B789FD /* DDData.m in Sources */,
+				EF962C1283B138972913A8F478E003EF /* DDNumber.m in Sources */,
+				E11CDF50B44586E7CAF60AF638E51213 /* DDRange.m in Sources */,
+				5D13B7A43FF9C9250AFFED6481E75675 /* DELETEResponse.m in Sources */,
+				2080E7AD99C273B6FD806B3590BA3BCA /* HTTPAsyncFileResponse.m in Sources */,
+				41C99D27D483448BDA70894CA932924D /* HTTPAuthenticationRequest.m in Sources */,
+				785F9DF4DC9D22BA4AC2882ADC2C6C13 /* HTTPConnection.m in Sources */,
+				1EE5ECE19A4B7B7604D6A3FB9A1FEFD5 /* HTTPDataResponse.m in Sources */,
+				1CAD5BCC2E361D89B2FCCD030FD85E49 /* HTTPDynamicFileResponse.m in Sources */,
+				03FBBEE8CBC4272AAAA76B053AEB3961 /* HTTPFileResponse.m in Sources */,
+				5F2F2E07D31FED69928AC5D6FA832BA8 /* HTTPMessage.m in Sources */,
+				5D64EB3F0807ACFC73BD58745B8C4EDB /* HTTPRedirectResponse.m in Sources */,
+				D047BC4B43239E7A7EA68EF58805156F /* HTTPServer.m in Sources */,
+				1FFE94443D6756300971A2D475A69C52 /* MultipartFormDataParser.m in Sources */,
+				6D0D0D5F34DEA39D45414972C5880DF0 /* MultipartMessageHeader.m in Sources */,
+				B51FC0F86480CC08B93F685E8F6065C6 /* MultipartMessageHeaderField.m in Sources */,
+				9745B56D5AFD82940209BB49D5BD3199 /* PUTResponse.m in Sources */,
+				7C58597BB73F288511F88D60CC5BA253 /* WebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8644F57980A7DA24AE425CD597F04C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE2BBF0A031F21D7FE3B0368756F54C /* Pods-wifidemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE2849CC3724927530A595A14A6F1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E97518C672E4926A700FA8B98AAC5F0 /* CocoaLumberjack-dummy.m in Sources */,
+				DB484BE6721BD6B464DB122B2175ADA4 /* DDAbstractDatabaseLogger.m in Sources */,
+				17E214513270CBA69E4BD4994F73AE16 /* DDASLLogCapture.m in Sources */,
+				B6BA6A2AD5C7E687F474533EB6153A78 /* DDASLLogger.m in Sources */,
+				20FE6DA0E26AEA2E19EB0F1F28DBA63A /* DDContextFilterLogFormatter.m in Sources */,
+				DFCBC2A6C5B6639779BA959EC1880B61 /* DDDispatchQueueLogFormatter.m in Sources */,
+				56D279DBB8520AF7CABA69A13E18F1B4 /* DDFileLogger.m in Sources */,
+				2273A8A79971FD632C759AAA02B005FE /* DDLog.m in Sources */,
+				F67664F9244ABA58B937B7E5093A0EF6 /* DDMultiFormatter.m in Sources */,
+				F58C28DB1ACD178CD8F44EE728743775 /* DDOSLogger.m in Sources */,
+				4AEE273522FF7A4D1456DA331A86B7EF /* DDTTYLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DA41FC08AAC0BC17DAE6295E03C120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B15DE1AE5DF8FA180B041019B8CC9D4 /* Pods-wifidemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD452A203117FF8DFA26B0711D439093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */,
+				8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */,
+				AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35AC6560F9186B51F7F7D407FEFE68BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = 5D74122C6A37F2411D6625DF4D56032C /* CocoaLumberjack */;
+			targetProxy = 8700676D49644E6E2BDF28AB42917F94 /* PBXContainerItemProxy */;
+		};
+		5FA42AF1EDE75DD1BE1ED0FCC7A2D33C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
+			targetProxy = 05F854B2C3EFA1130B8E503A18E48552 /* PBXContainerItemProxy */;
+		};
+		69F1FD4DFFC178E27B4E470EB4E93B8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = 5D74122C6A37F2411D6625DF4D56032C /* CocoaLumberjack */;
+			targetProxy = 1B7830FF534B3E142E465B7CE9D68E52 /* PBXContainerItemProxy */;
+		};
+		C3EBA0E1D76017F44616207E71E30991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaHTTPServer;
+			target = 2A5A064B73AE926EA3F0A749DDB3773B /* CocoaHTTPServer */;
+			targetProxy = C5C988AA8A72C8539D9CD710EE9E0851 /* PBXContainerItemProxy */;
+		};
+		F056010729523842CBD7F8CEC5D87D79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
+			targetProxy = 045144BB5A09CF995EBBE1000C32C590 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B9A658E9EA7CAE0E9B163CD1762DB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0633F8B15347554B8EB3659C39ADDAEE /* CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12AFA519D0670993590761F668A75080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF5BE8D74E97B46A70DCF7247C6D702 /* Pods-wifidemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-wifidemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wifidemo/Pods-wifidemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_wifidemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		19849ED6D4D891FBC9BF17A2808D5778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F332FED4D5AF36098D6D3736EFD23D77 /* Pods-wifidemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-wifidemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wifidemo/Pods-wifidemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_wifidemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28D3D75DF8E6B99320D441CFEAF823D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0633F8B15347554B8EB3659C39ADDAEE /* CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2FD424E87B4E36C14562E27CB977092F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04115BA6793A87BA4D52DFE466337C8 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38E77261350C43ECDFCC310A21F1E532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD7D7429D65D8DABCCFCCA67E286210 /* Pods-wifidemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-wifidemoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wifidemoUITests/Pods-wifidemoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_wifidemoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41FAFBA2CF044F5BE8F37B6E9AD14DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6686197DF50AE9543ACEFF7013B847B /* Pods-wifidemoTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-wifidemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wifidemoTests/Pods-wifidemoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_wifidemoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		60359A96886C4D474CB850FA4F2B8242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 652F255179A2A96375FC485B55414D61 /* CocoaHTTPServer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaHTTPServer/CocoaHTTPServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaHTTPServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaHTTPServer/CocoaHTTPServer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaHTTPServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		603F1710F7B3EAB15443A7FEE833F939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 652F255179A2A96375FC485B55414D61 /* CocoaHTTPServer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaHTTPServer/CocoaHTTPServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaHTTPServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaHTTPServer/CocoaHTTPServer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaHTTPServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A88F45C66290C36A348E2C613657A73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04115BA6793A87BA4D52DFE466337C8 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF447AE6CD9129E5CD9802A0C5FB232D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30EAA1E2BB837679FE35C857DA4B705 /* Pods-wifidemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-wifidemoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wifidemoUITests/Pods-wifidemoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_wifidemoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC4F8F8714CAA3DE65745CC088825493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35CD6BD33CEA6702A2FD63E55BFFC1B0 /* Pods-wifidemoTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-wifidemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wifidemoTests/Pods-wifidemoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_wifidemoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F779D13850B473E11F17BE610EE99C4 /* Build configuration list for PBXNativeTarget "CocoaHTTPServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				603F1710F7B3EAB15443A7FEE833F939 /* Debug */,
+				60359A96886C4D474CB850FA4F2B8242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4829CC6585050E3B626414EE6E9413D4 /* Build configuration list for PBXNativeTarget "Pods-wifidemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E77261350C43ECDFCC310A21F1E532 /* Debug */,
+				BF447AE6CD9129E5CD9802A0C5FB232D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCB3B5F19DFFD8212579CA5EACB340A /* Build configuration list for PBXNativeTarget "Pods-wifidemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19849ED6D4D891FBC9BF17A2808D5778 /* Debug */,
+				12AFA519D0670993590761F668A75080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616FD1182B47D3354A7830F15A45F425 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D3D75DF8E6B99320D441CFEAF823D1 /* Debug */,
+				0B9A658E9EA7CAE0E9B163CD1762DB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ED10463021DB15C82A55B054C0A0B82 /* Build configuration list for PBXNativeTarget "Pods-wifidemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FAFBA2CF044F5BE8F37B6E9AD14DBD /* Debug */,
+				DC4F8F8714CAA3DE65745CC088825493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A03B912F777B2BFB05E7B9E903B15F /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD424E87B4E36C14562E27CB977092F /* Debug */,
+				A88F45C66290C36A348E2C613657A73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
